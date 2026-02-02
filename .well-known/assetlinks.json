@@ -1,27 +1,20 @@
-[{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://asadulloakramov.github.io"
-  }
-},
+[
   {
-    "relation": ["delegate_permission/common.get_login_creds","delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
-      "namespace": "android_app",
-      "package_name": "uz.dida.payme",
-      "sha256_cert_fingerprints": [
-        "71:97:49:B1:24:C0:1B:CB:1C:33:7B:F7:9E:25:34:08:5A:14:E2:25:16:0B:58:DF:8C:E1:87:CC:4D:08:B5:F7"
-      ]
+      "namespace": "web",
+      "site": "https://asadulloakramov.github.io"
     }
   },
   {
     "relation": ["delegate_permission/common.get_login_creds","delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "uz.dida.p2me",
+      "package_name": "uz.dida.payme",
       "sha256_cert_fingerprints": [
-        "71:97:49:B1:24:C0:1B:CB:1C:33:7B:F7:9E:25:34:08:5A:14:E2:25:16:0B:58:DF:8C:E1:87:CC:4D:08:B5:F7"
+        "5B:24:49:21:4C:5B:66:16:2B:33:80:20:92:66:CB:31:CA:E5:43:6C:AB:A5:3C:6D:5A:4C:2D:F3:E6:B8:AE:4F"
       ]
     }
   },
