@@ -1,10 +1,13 @@
-[{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://payme.uz"
-  }
-},
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://asadulloakramov.github.io"
+    }
+  },
   {
     "relation": ["delegate_permission/common.get_login_creds","delegate_permission/common.handle_all_urls"],
     "target": {
