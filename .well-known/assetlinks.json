@@ -27,4 +27,18 @@
         "71:97:49:B1:24:C0:1B:CB:1C:33:7B:F7:9E:25:34:08:5A:14:E2:25:16:0B:58:DF:8C:E1:87:CC:4D:08:B5:F7"
       ]
     }
-  }]
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds",
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.coroutines",
+      "sha256_cert_fingerprints": [
+        "71:97:49:B1:24:C0:1B:CB:1C:33:7B:F7:9E:25:34:08:5A:14:E2:25:16:0B:58:DF:8C:E1:87:CC:4D:08:B5:F7"
+      ]
+    }
+  }
+]
